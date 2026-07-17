@@ -12,4 +12,11 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  vite: {
+    plugins: []
+  },
+  // Set Nitro to build for a standard Node.js server instead of Cloudflare
+  nitro: {
+    preset: 'node-server'
+  }
 });
