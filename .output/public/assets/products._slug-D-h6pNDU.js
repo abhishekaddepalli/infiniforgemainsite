@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-A5dP0uXe.js";import{t}from"./SiteLayout-BV2bjbZ6.js";var n=e(),r=({error:e})=>(0,n.jsx)(t,{children:(0,n.jsx)(`div`,{className:`mx-auto max-w-3xl p-16 text-center text-muted-foreground`,children:e.message})});export{r as errorComponent};

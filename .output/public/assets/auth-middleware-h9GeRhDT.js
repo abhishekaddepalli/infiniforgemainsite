@@ -1,0 +1,1 @@
+import{qr as e}from"./index-_ql4Fmjb.js";var t=e({type:`function`});export{t};
