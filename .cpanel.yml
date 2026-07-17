@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export PATH=/opt/cpanel/ea-nodejs20/bin:$PATH
+    - npm install --legacy-peer-deps
+    - npm run build
+    - cp -R .output/* $(pwd)/../public_html/

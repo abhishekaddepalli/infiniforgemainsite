@@ -1,0 +1,6 @@
+
+ALTER TABLE public.products
+  ADD COLUMN IF NOT EXISTS demo_url TEXT,
+  ADD COLUMN IF NOT EXISTS demo_enabled BOOLEAN NOT NULL DEFAULT false,
+  ADD COLUMN IF NOT EXISTS long_description TEXT,
+  ADD COLUMN IF NOT EXISTS gallery_urls JSONB NOT NULL DEFAULT '[]'::jsonb;
