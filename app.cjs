@@ -1,3 +1,6 @@
+// Expose require globally so the poorly bundled .mjs file can access it
+global.require = require;
+
 async function startServer() {
   try {
     // Dynamically import the compiled ES Module server
