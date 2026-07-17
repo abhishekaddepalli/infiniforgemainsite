@@ -94,9 +94,17 @@
     "vite": "^8.0.16"
   },
   "overrides": {
-    "js-yaml": "^4.3.0"
+    "js-yaml": "^4.3.0",
+    "react-simple-maps": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
   },
   "resolutions": {
-    "js-yaml": "^4.3.0"
+    "js-yaml": "^4.3.0",
+    "react-simple-maps": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
   }
 }
